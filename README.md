@@ -50,6 +50,22 @@ The backend is powered by **Lovable Cloud** and includes:
 The backend is **deployed and managed automatically** — no manual setup needed. Edge functions and database migrations are applied when you push changes through Lovable.
 
 > **Note:** You do not need to run the backend locally. It's always available as a hosted service.
+>Challenges Faced and How I Solved Them
+
+During the development of this project, I faced a few challenges while setting up authentication and integrating services.
+
+1. Google OAuth Configuration
+
+The hardest part was configuring Google OAuth login correctly. I encountered errors such as redirect URI mismatch, which happened because the callback URL in Google Cloud did not exactly match the Supabase callback URL.
+
+Solution:
+I fixed this by:
+
+Copying the exact callback URL from Supabase.
+
+Updating the Authorized Redirect URIs in Google Cloud.
+
+Adding my application URL in Supabase URL Configuration
 
 ## Tech Stack
 
