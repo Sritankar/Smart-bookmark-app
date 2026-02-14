@@ -2,6 +2,8 @@
 
 A real-time bookmark manager with tagging, filtering, and Google authentication.
 
+# Deploy link = https://sritankar.lovable.app/
+
 ## Project Structure
 
 ```
