@@ -24,15 +24,12 @@ A real-time bookmark manager with tagging, filtering, and Google authentication.
 
 ```sh
 # 1. Clone the repository
-git clone <YOUR_GIT_URL>
+git clone <https://github.com/Sritankar/Smart-bookmark-app.git>
 
-# 2. Navigate to the project directory
-cd <YOUR_PROJECT_NAME>
-
-# 3. Install dependencies
+# 2. Install dependencies
 npm install
 
-# 4. Start the development server
+# 3. Start the development server
 npm run dev
 ```
 
